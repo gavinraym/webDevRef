@@ -18,5 +18,6 @@ from django.urls import path
 from mysite.repo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.hello_world),
+    path('', views.home),
+    path('repo/<str:page>', views.repo),
 ]

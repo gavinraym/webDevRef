@@ -1,3 +1,16 @@
 .boxes { display: block; } 
-.box1 { display: block; color:blue; background-color: rgba(127,0,0,0.5); width:60px}
+.box1 { display: block; background-color: rgba(127,0,0,0.5); width:60px}
 .box2 { display: block; background-color: rgba(0, 127,0,0.5); width:60px}
+
+.box3 { display: inline; background-color: rgba(127,0,0,0.5); width:60px}
+.box4 { display: inline; background-color: rgba(0, 127,0,0.5); width:60px}
+
+.flexboxes { display: flex; }
+
+.gridboxes { display: grid;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 30px 30px 30px;
+    grid-gap: 10px;
+}
+.box5 { background-color: rgba(127,0,0,0.5); width:60px}
+.box6 { background-color: rgba(0, 127,0,0.5); width:60px}

@@ -2,12 +2,14 @@
 {% load static %}
 <html>
 <head>
-<title>Title of the document</title>
+<title>Document Flow</title>
 <link rel="stylesheet" href="{% static 'repo/document_flow.css' %}">
 </head>
 
 
 <h1>Document Flow Options</h1>
+
+<h2>display : block;<h2>
 <div class="boxes">
   <div class="box1">Box A</div>
   <div class="box2">Box B</div>
@@ -18,4 +20,43 @@
   <div class="box1">Box G</div>
   <div class="box2">Box H</div>
   <div class="box1">Box I</div>
+</div>
+
+<h2>display : inline;</h2>
+<div class="boxes">
+  <div class="box3">Box A</div>
+  <div class="box4">Box B</div>
+  <div class="box3">Box C</div>
+  <div class="box4">Box D</div>
+  <div class="box3">Box E</div>
+  <div class="box4">Box F</div>
+  <div class="box3">Box G</div>
+  <div class="box4">Box H</div>
+  <div class="box3">Box I</div>
+</div>
+
+<h2>display : flex;</h2>
+<div class="flexboxes">
+  <div class="box3">Box A</div>
+  <div class="box4">Box B</div>
+  <div class="box3">Box C</div>
+  <div class="box4">Box D</div>
+  <div class="box3">Box E</div>
+  <div class="box4">Box F</div>
+  <div class="box3">Box G</div>
+  <div class="box4">Box H</div>
+  <div class="box3">Box I</div>
+</div>
+
+<h2>display : grid;</h2>
+<div class="gridboxes">
+  <div class="box3">Box A</div>
+  <div class="box4">Box B</div>
+  <div class="box3">Box C</div>
+  <div class="box4">Box D</div>
+  <div class="box3">Box E</div>
+  <div class="box4">Box F</div>
+  <div class="box3">Box G</div>
+  <div class="box4">Box H</div>
+  <div class="box3">Box I</div>
 </div>

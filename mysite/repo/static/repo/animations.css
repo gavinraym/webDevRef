@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+}
+
+.wrapper {
+    margin: 10em auto 2em auto;
+    width:80%;
+    position:relative;
+}
+
+.robot {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+}
+
+@keyframes slide {
+    from {transform: translateX(0);}
+    to {transform:translateX(250px);}
+}
+
+.car {
+    animation-name: lap;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; /*forwards retains last frame at end */
+    /* backwards sets to the 0% frame initially, before delay*/
+    /* both is great too! */
+
+}
+
+@keyframes lap {
+    0% {}
+    20% {transform: translateY(80px);}
+    25% {transform: translate(20px, 100px) rotate(-90deg);}
+    45% {transform: translate(80px, 100px) rotate(-90deg);}
+    50% {transform: translate(100px, 80px) rotate(-180deg);}
+    70% {transform: translate(100px, 20px) rotate(-180deg);}
+    75% {transform: translate(80px, 0px) rotate(-270deg);}
+    100% {transform: translate(0px, 0px) rotate( -270deg);}
+
+}
+

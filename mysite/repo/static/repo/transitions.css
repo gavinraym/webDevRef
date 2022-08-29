@@ -1,0 +1,70 @@
+img {
+    height: 70px;
+    transform: rotate(270deg);
+    translate: 0px -35px;
+}
+
+.track {
+    border-style: solid;
+    height: 4px; 
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+#transition {
+    transition: all 3s;
+    /* Or...
+    transition-property: all;
+    transition-duration: 3s;
+
+    'all' indicates that it will transition any 
+    scalar attribute indicated.
+    */    
+}
+
+#transition:hover {
+    translate: 250px -30px;
+}
+
+#left {
+    position: relative;
+    transform: rotate(90deg);
+    left: 0px;
+    transition: left 3s ease-in, transform 0s ;
+}
+
+#left:hover {
+    transform: rotate(270deg);
+    left: 250px;
+}
+
+#outcomebox {
+    position: relative;
+    background-color: bisque;
+    left: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+    transition: left 5s, width 3s, height 3s, border-radius 5s, background-color 4s;
+}
+
+#outcomebox:hover {
+    background-color: blueviolet;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#asymmetric {
+    position: relative;
+    left: 0px;
+    transition: left 6s linear;    
+}
+
+#asymmetric:hover {
+    left: 250px;
+    transition: left 2s ease-in;
+}

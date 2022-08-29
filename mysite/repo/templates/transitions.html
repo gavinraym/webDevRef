@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="{% static 'repo/transitions.css' %}">
+</head>
+
+<body>
+
+    <p>Transitions with [translate: 250px 0px;] on hover.</p>
+<div class="track">
+    <img id="transition" src="{% static 'repo/car.png' %}">
+</div>
+
+<br><br>
+
+<p>transition: left 3s ease-in; and transform: rotate</p>
+<div class="track">
+    <img id="left" src="{% static 'repo/car.png' %}">
+</div>
+
+<br><br>
+
+<p>Change div shape and color on hover.<p>
+    <div id="outcomebox"></div>
+
+
+    <br><br>
+
+
+    <p>Asymmetric transition with slow, linear back up</p>
+    <div class="track">
+        <img id="asymmetric" src="{% static 'repo/car.png' %}">
+    </div>
+
+    <br><br>
+
+<a href="https://www.flaticon.com/free-icons/car" title="car icons">Car icons created by mynamepong - Flaticon</a>
+</body>

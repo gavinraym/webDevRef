@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="{% static 'repo/overlay.css' %}">
+</head>
+
+<body>
+    <p>Opaque robot driver.
+    <div class="wrapper">
+        <img src="{% static 'repo/car.png' %}" id="car" />
+        <img src="{% static 'repo/robotics.png' %}" id="robot" />
+        <img src="{% static 'repo/robotics.png' %}" id="bystander" />
+    </div>
+</body>
+
+</html>

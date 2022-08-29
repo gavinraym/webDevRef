@@ -1,0 +1,33 @@
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.wrapper {
+    margin: 10em auto 2em auto;
+    width:80%;
+    position:relative;
+}
+
+#car {
+    z-index: -1;
+    height: 250px;
+    width: auto;
+    
+}
+
+#robot {
+    opacity: .4;
+    transform: translate(115px, 145px );
+    height: 40px;
+    width: 40px;
+}
+
+#bystander {
+    height: 40px;
+    width: 40px;
+    
+    transform: rotate3d(.5, .5, .5, 36deg) translate(300px, 125px);
+}
+

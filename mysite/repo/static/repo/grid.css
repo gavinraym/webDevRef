@@ -1,0 +1,39 @@
+.grid {
+	display: grid;
+	grid-template-columns: 100px 250px 150px;
+    /*grid-template-columns: .5fr 2fr 1fr;*/ /*For fraction of unit*/
+	grid-template-rows: auto auto auto;
+    gap : 5px;
+    
+}
+
+.header {
+    border-style:solid;
+    background-color: black;
+    padding: 2px;
+    color:aliceblue;
+    font-size: larger;
+}
+
+.cell {
+    border-style: dotted;
+    border-width: 2px;
+    font-size: large;
+    padding: 2px;
+    text-align: center;
+}
+
+.rank {
+    background-color: rgb(250, 134, 163);
+}
+
+.name {
+    background-color: rgb(250, 248, 134);
+}
+
+.score {
+    background-color: rgb(134, 161, 250);
+}
+
+
+

@@ -1,0 +1,60 @@
+{% load static %}
+<html>
+<head>
+<title>Title of the document</title>
+<link rel="stylesheet" href="{% static 'repo/transformations.css' %}">
+</head>
+
+<div class="frame">
+    <img src="{% static 'repo/robotics.png' %}">
+    <p>No transformation added</p>
+</div>
+
+<div class="frame">
+    <img id="translate" src="{% static 'repo/robotics.png' %}">
+    <p>translate: 20px 20px;</p>
+</div>
+
+<div class="frame">
+    <img id="scale" src="{% static 'repo/robotics.png' %}">
+    <p>scale: 1.5 .75</p>
+</div>
+
+
+<div class="frame">
+    <img id="skew" src="{% static 'repo/robotics.png' %}">
+    <p>transform: skew(30deg);</p>
+</div>
+
+<div class="frame">
+    <img id="rotate" src="{% static 'repo/robotics.png' %}">
+    <p>rotate: 36deg; </p>
+</div>
+
+<div class="frame">
+    <img id="topLeftTrans\" src="{% static 'repo/robotics.png' %}">
+    <p>transform-origin: top left; translate: 20px 20px;</p>
+</div>
+
+<div class="frame">
+    <img id="rightscale" src="{% static 'repo/robotics.png' %}">
+    <p>transform-origin: right; scale: 1.5 .75;</p>
+</div>
+
+<div class="frame">
+    <img id="rightskew" src="{% static 'repo/robotics.png' %}">
+    <p> transform-origin: bottom; transform: skew(20deg);</p>
+</div>
+
+<div class="frame">
+    <img id="rightBottomRotate" src="{% static 'repo/robotics.png' %}">
+    <p>transform-origin: right bottom; rotate: 36deg;</p>
+</div>
+
+<div class="frame">
+    <img id="rotate3d" src="{% static 'repo/robotics.png' %}">
+    <p>transform: rotate3d(1, -1, .2, 45deg); </p>
+</div>
+
+
+<a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Smashicons - Flaticon</a>

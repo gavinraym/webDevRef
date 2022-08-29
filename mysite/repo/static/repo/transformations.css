@@ -1,0 +1,58 @@
+
+img {
+
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    display:inline;
+    
+}
+
+p {
+    display: inline;
+}
+
+.frame {
+    border: solid;  
+    padding : 50px; 
+}
+
+#translate {
+    translate: 20px 20px;
+}
+
+#scale {
+    scale: 1.5 .75;
+}
+
+#skew {
+    transform: skew(30deg);
+}
+
+#rotate {
+    rotate: 36deg;
+}
+
+#topLeftTrans {
+    transform-origin: top left;
+    translate: 20px 20px;
+}
+
+#rightscale {
+    transform-origin: right;
+    scale: 1 1.5;
+}
+
+#rightskew {
+    transform-origin: bottom;
+    transform: skew(20deg);
+}
+
+#rightBottomRotate {
+    transform-origin: right bottom;
+    rotate: 54deg;
+}
+
+#rotate3d {
+    transform: rotate3d(1, -1, .2, 45deg); 
+}

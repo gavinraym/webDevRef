@@ -1,0 +1,16 @@
+body {
+    background-color: blanchedalmond;
+    padding: 10em;
+}
+.square {
+    min-height: 50px;
+    min-width: 50px;
+    background-color: aquamarine;
+    margin: 3em;
+    display: inline;
+}
+
+.row {
+    height: 50px;
+    display: block;
+}
